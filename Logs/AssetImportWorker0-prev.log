@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.19f1 (5f5eb8bbdc25) revision 6250168'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'cs' Physical Memory: 8113 MB
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'cs' Physical Memory: 8041 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Jakub/OneDrive - OAUH/Dokumenty/JumpoGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51128
+52651
 Successfully changed project path to: C:/Users/Jakub/OneDrive - OAUH/Dokumenty/JumpoGame
 C:/Users/Jakub/OneDrive - OAUH/Dokumenty/JumpoGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1491.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 141.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.19f1 (5f5eb8bbdc25)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity 2021.1.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,441 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity 2021.1.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity 2021.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity 2021.1.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity 2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001832 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 117.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1565ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (518ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 131.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2218ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1997ms)
+			LoadAssemblies (845ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.42 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4141.
+Total: 4.097900 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.182800 ms MarkObjects: 3.528700 ms  DeleteObjects: 0.071800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_003.png
+  artifactKey: Guid(1e79a5d0557de2842be79466400cb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_003.png using Guid(1e79a5d0557de2842be79466400cb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bb22a66343a654088088c621972511') in 0.222795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_001.png
+  artifactKey: Guid(9d574ff883711c74b9fe5cf05b62f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_001.png using Guid(9d574ff883711c74b9fe5cf05b62f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb40a61875dc83b9bdf816f1f92eb605') in 0.025476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_004.png
+  artifactKey: Guid(b759019675f67f4458bd730a17063c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_004.png using Guid(b759019675f67f4458bd730a17063c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6c66262ca593a1c116a68bbf1b5e46') in 0.019980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/TooCubeForest/Falling Down
+  artifactKey: Guid(a2884976d02c0f643a1e5811683d119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Falling Down using Guid(a2884976d02c0f643a1e5811683d119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be1fb074ccc100082b2a1a811e09db') in 0.007501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_002.png
+  artifactKey: Guid(e166b8e0a6739cd4bb974d832fb4161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_002.png using Guid(e166b8e0a6739cd4bb974d832fb4161c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d9d008a09e886269c93a815afb4624') in 0.023489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_005.png
+  artifactKey: Guid(a38de3d32a505c04c9d2cfb7db5b0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_005.png using Guid(a38de3d32a505c04c9d2cfb7db5b0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6304c95ad6fb761a2684b90fb18d625b') in 0.023326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_000.png
+  artifactKey: Guid(3d7383ffb8ccad049929798e75435c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Falling Down/0_Golem_Falling Down_000.png using Guid(3d7383ffb8ccad049929798e75435c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a075ae48936428b735eb1f5261b97a') in 0.022667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.133094 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_000.png
+  artifactKey: Guid(139ba80558c8d1e4a819693a53533da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_000.png using Guid(139ba80558c8d1e4a819693a53533da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24412bbae2bcc7e297155fa0dc8d870a') in 0.016441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_009.png
+  artifactKey: Guid(c7a851cb7e5d7fb47aa26489eec8f7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_009.png using Guid(c7a851cb7e5d7fb47aa26489eec8f7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708936bc719f75c3af90ba5f104fc896') in 0.023623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_006.png
+  artifactKey: Guid(125d97897c7255a4a98d2c5a9c53bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_006.png using Guid(125d97897c7255a4a98d2c5a9c53bbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d90dba1ad0d7c8926bcc59bc1a3f93') in 0.023655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_001.png
+  artifactKey: Guid(965a76a3c1a707c4881504de30ff4c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_001.png using Guid(965a76a3c1a707c4881504de30ff4c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf9470f26e588298d1b724b60a834a4') in 0.022526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_008.png
+  artifactKey: Guid(84102f8a471172648aa8a1d9caee4315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_008.png using Guid(84102f8a471172648aa8a1d9caee4315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d76e6981b0d5ed05ba4d3e483724f3b') in 0.021395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_017.png
+  artifactKey: Guid(37677895065603643b555d55571610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_017.png using Guid(37677895065603643b555d55571610b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354c57d24bd471a21c89d7e671b7ef74') in 0.021448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_003.png
+  artifactKey: Guid(d596e96c5d2c6b347b23cb5b7dd31880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_003.png using Guid(d596e96c5d2c6b347b23cb5b7dd31880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63acbbeb64a63101b63a0fb09b1e18ab') in 0.022965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_012.png
+  artifactKey: Guid(90457d48c2854cc4497a1ee94e485690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_012.png using Guid(90457d48c2854cc4497a1ee94e485690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ab130406ed594285bb840cb77ddf6f') in 0.021197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_016.png
+  artifactKey: Guid(27733e3369e72504e9ba1398a4b5feb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_016.png using Guid(27733e3369e72504e9ba1398a4b5feb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517eb3ac819d2d8cff1306b49580c67e') in 0.024330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_004.png
+  artifactKey: Guid(727e8a3ff0267cf47bc51a75dfc2551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_004.png using Guid(727e8a3ff0267cf47bc51a75dfc2551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769baa5c784cd849f29cb6323357d5f7') in 0.025001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_011.png
+  artifactKey: Guid(921d1b4392b9943458a49b58d31cc51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_011.png using Guid(921d1b4392b9943458a49b58d31cc51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbc2abd02014de670f23c2fac6f23b2') in 0.024532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_002.png
+  artifactKey: Guid(243d45961229e5f42b1074f55c49b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_002.png using Guid(243d45961229e5f42b1074f55c49b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36558425c2815f252a4e4fc786bde4af') in 0.026126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_010.png
+  artifactKey: Guid(2fb1b931986ee9a40944002df2f90415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_010.png using Guid(2fb1b931986ee9a40944002df2f90415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9c989429eb5a3c79b13bd45a963b25') in 0.021801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_007.png
+  artifactKey: Guid(3cef1e650172b264289fa66eb34f367f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_007.png using Guid(3cef1e650172b264289fa66eb34f367f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2081ac32164a663e154f6f59304e6697') in 0.023697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_015.png
+  artifactKey: Guid(b281675826a9da145a39aa1c2d3da8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_015.png using Guid(b281675826a9da145a39aa1c2d3da8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdbd3084ea0db63678801da9897d779') in 0.021229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_005.png
+  artifactKey: Guid(265f752a6d26f4a4cbf9fc8e518ac544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_005.png using Guid(265f752a6d26f4a4cbf9fc8e518ac544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587afdd9144f4b5bbf7b79348a66dbe0') in 0.023952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_013.png
+  artifactKey: Guid(6a7420e19a64e36489168bc7435af12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_013.png using Guid(6a7420e19a64e36489168bc7435af12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa7adab6dabbc22b8f277a4473a9729') in 0.022763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_014.png
+  artifactKey: Guid(ddf8a9fd7eeb4d749bbc04fecc69b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_014.png using Guid(ddf8a9fd7eeb4d749bbc04fecc69b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f0b4e4d4c364f12bf5597a6c25c759') in 0.023736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.929792 seconds.
+  path: Assets/TooCubeForest/Idle
+  artifactKey: Guid(58f9a82d8bdd2814ea368388b33c7774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle using Guid(58f9a82d8bdd2814ea368388b33c7774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b7af7cbbb76c197cec4a6679597ba0') in 0.011085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.577283 seconds.
+  path: Assets/TooCubeForest/Idle/Animation.anim
+  artifactKey: Guid(9f690367a285ea34ba69a5bf430e9d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/Animation.anim using Guid(9f690367a285ea34ba69a5bf430e9d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0866231ea2b77d85c8ee07da6b08c530') in 0.009928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.783622 seconds.
+  path: Assets/TooCubeForest/Idle/0_Golem_Idle_000.controller
+  artifactKey: Guid(4b5f9b357fcf5b947ad7aa0ed84e2c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TooCubeForest/Idle/0_Golem_Idle_000.controller using Guid(4b5f9b357fcf5b947ad7aa0ed84e2c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2870cfd7b53fb89df1a46abecc0343f6') in 0.015488 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.211 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1212ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1017ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.7 MB.
+System memory in use after: 171.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4510.
+Total: 3.796100 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.200700 ms MarkObjects: 3.204600 ms  DeleteObjects: 0.027000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006092 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1128ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.8 MB.
+System memory in use after: 170.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4513.
+Total: 5.257500 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.184600 ms MarkObjects: 4.738300 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006282 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jakub\OneDrive - OAUH\Dokumenty\JumpoGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 140.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (896ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3963 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.5 MB.
+System memory in use after: 178.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4806.
+Total: 3.040300 ms (FindLiveObjects: 0.341500 ms CreateObjectMapping: 0.207900 ms MarkObjects: 2.468000 ms  DeleteObjects: 0.022200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
